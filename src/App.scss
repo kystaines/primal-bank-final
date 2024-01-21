@@ -161,20 +161,11 @@ button:hover a {
   background-color: $black-400;
 }
 
-/* Navbar styling with teal color */
-.navbar {
-  background-color: #009688; /* Teal color */
-  padding: 15px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
+.container {
+  padding: 20px; /* Add padding to the container for better spacing */
 }
 
-.navbar a {
-  color: #fff; /* White text color for contrast */
-}
-
-.navbar a:hover {
-  color: #ff4081; /* Pinkish color for hover effect */
+p a {
+  color: $accent-color; /* Change link color within paragraphs */
+  text-decoration: underline; /* Add underline on hover */
 }
