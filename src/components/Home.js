@@ -38,11 +38,11 @@ const Home = () => {
                     <div className="features">
                         <div data-aos="fade-up-right" data-aos-delay="20" className="ft">
                             <img src={easyP} alt="wallet_img" />
-                            <span>Easy Payments</span>
+                            <span>Easy to Use</span>
                         </div>
                         <div data-aos="fade-up-right" data-aos-delay="20" className="ft">
                             <img src={fstMny} alt="wallet_img" />
-                            <span>Fast Payments</span>
+                            <span>Fast Transactions</span>
                         </div>
                         <div data-aos="fade-up-right" data-aos-delay="20" className="ft">
                             <img src={wallet} alt="wallet_img" />
