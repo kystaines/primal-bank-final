@@ -1,0 +1,126 @@
+// Navbar.scss
+
+nav {
+  background-color: #dfdfdf;
+  color: #000000;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+
+  box-shadow: rgba(38, 57, 77, 0.436) 0px 10px 20px -10px;
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 10px;
+
+    .logo {
+      // background-color: rgb(245, 245, 245);
+      border-radius: 10px;
+      // box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(205, 205, 205, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(206, 206, 206, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      img {
+        height: 50px;
+        width: auto;
+      }
+    }
+
+    .menu {
+      list-style: none;
+      display: flex;
+
+      li {
+        margin-right: 20px;
+
+        a{
+          text-decoration: none;
+          color: #000000;
+          font-size: 18px;
+        }
+
+        .active {
+          font-weight: bold; // Highlight active section
+          color: rgb(20, 160, 241);
+          // text-decoration: underline;
+        }
+      }
+    }
+
+    .menu-toggle {
+      display: none;
+      cursor: pointer;
+      box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(205, 205, 205, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(206, 206, 206, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+      .menu-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 3px;
+        height: 24px;
+        // width: 30px;
+        cursor: pointer;
+        background-color: white;
+
+
+        .bar1,
+        .bar2,
+        .bar3 {
+          width: 25px;
+          height: 10px;
+          background-color: black;
+          margin: 1px 0;
+          transition: 0.4s;
+        }
+
+        &.open .bar1 {
+          width: 25px;
+          transform: translate(0, 6px) rotate(-45deg);
+        }
+
+        &.open .bar2 {
+          opacity: 0;
+        }
+
+        &.open .bar3 {
+          transform: translate(0, -6px) rotate(45deg);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container1 {
+      .menu-toggle {
+        display: block;
+      }
+
+      .menu {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        text-align: end;
+        position: absolute;
+        top: 50px;
+        left: -1000px;
+        width: 100%;
+        background-color: #6BA4D3;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(205, 205, 205, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(206, 206, 206, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+        z-index: 1;
+        padding: 10px;
+        transition: all 0.5s ease-in-out;
+
+        li {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+
+      .menu.open {
+        display: flex;
+        left: 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+@import "styles/variables";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+/*!----------------#### Global Declarations ####-----------------------  */
+
+/*?-------------------Body layout -s ---------------- */
+
+html {
+  scroll-behavior: smooth;
+  /* scroll-snap-type: y mandatory; */
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  // background-color: $main-bg-lgt;
+  background: rgb(255, 47, 47);
+  background: linear-gradient(70deg, rgba(255, 47, 47, 0.782) 10%, rgb(243, 60, 60) 90%);
+  font-size: 13px;
+  font-weight: 400;
+  color: $white-1000;
+  overflow-x: hidden;
+  font-family: "Roboto", serif;
+  
+  background-position: center; /* Center the image */
+  // background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  color: $white-1000;
+}
+
+/*? -------------------Body -e----------------------- */
+
+/*?------------------- Adjustments -s-------------------- */
+
+ul {
+  list-style: none;
+}
+
+section {
+  display: block;
+}
+.section_padding {
+  padding: 80px 60px;
+}
+
+.container {
+  max-width: 1140px;
+  // margin-top: 40px;
+}
+
+.row {
+  // background-color: $bg-light;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify_content_cntr {
+  justify-content: center;
+}
+
+.space_btw {
+  justify-content: space-between;
+}
+
+.align_cntr {
+  align-items: center;
+}
+
+.txt_align {
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 25px;
+}
+
+/*?------------------- Adjustments -e -------------------- */
+
+/*?-------------------   Buttons -s   -------------------- */
+.popup,
+.trans_error,
+.delete-popup,
+.add-popup {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  padding: 10px;
+  background-color: #ff0000; // Green color
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+
+  p {
+    margin: 0;
+  }
+}
+.add-popup {
+  background-color: rgb(16, 187, 16);
+}
+button {
+  background-color: $accent-color;
+  border: none;
+  box-shadow: $box-shadow-low;
+  cursor: pointer !important;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  overflow: hidden;
+  padding: auto;
+  z-index: 1;
+  transition: all 0.25s ease;
+  border-radius: 10px;
+
+  a {
+    color: $bg-light;
+  }
+}
+
+button:hover {
+  box-shadow: $box-shadow-high;
+  background-color: $bg-light;
+  color: $accent-color;
+}
+button:hover a {
+  color: $accent-color;
+}
+
+/*?-------------------   Buttons -e   -------------------- */
+
+/* ?---------------  Scroll Bar -s    ------------------- */
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #6db9e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(253, 253, 253);
+  border-radius: 0.4rem;
+  border: 0.2rem solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: $black-400;
+}
+

@@ -1,0 +1,75 @@
+/* signIn.scss */
+
+.sign-cls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    // background-color: #d4b0b0;
+
+    h4
+    {
+        margin: 10px;
+        font-size: 15px;
+
+        span
+        {
+            font-size: 16px;
+            font-weight: 900;
+            text-decoration: underline;
+            cursor: pointer;
+
+            &:hover
+            {
+                color: blue;
+            }
+            &:active
+            {
+                transform: scale(0.7);
+            }
+        }
+
+    }
+}
+
+.sign-box {
+    background-color: #7878cc;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 350px;
+
+    .title {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input {
+            padding: 10px;
+            color: black;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+    }
+
+    .btn-cntr {
+      
+        text-align: center;
+        button {
+            padding: 10px 20px;
+        }
+    }
+}
