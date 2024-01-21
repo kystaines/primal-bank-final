@@ -18,6 +18,36 @@ const Footer = () => {
           <p>Email: primal.bank@gmail.com</p>
         </div>
 
+        <div className="message">
+          <h2>Message us</h2>
+          <form className="forms" autoComplete="off">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            {/* <input type="text" name="message" id="message"  /> */}
+            <textarea
+              rows="4"
+              cols="10"
+              name="comment"
+              form="usrform"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button>Submit</button>
+          </form>
+        </div>
+
         <h4>
           Primal Bank is not a registered bank. Please use this website
           carefully.
