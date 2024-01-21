@@ -9,7 +9,15 @@ const Footer = () => {
         <div className="handles">
           <img className="main-logo" src={bankLogo} alt="logo" />
 
-          <div className="off-web">Address : Quezon City, Philippines</div>
+          <div className="off-web">
+            <br />
+            Street: Alabang <br />
+            City: Muntinlupa <br />
+            City State/province/area: Metro Manila <br />
+            Phone number: 8072064/8078836/8072099 <br />
+            Country calling code:+63 <br />
+            Country: Philippines
+          </div>
         </div>
 
         <div className="contacts">
