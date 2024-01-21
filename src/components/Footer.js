@@ -9,43 +9,16 @@ const Footer = () => {
         <div className="handles">
           <img className="main-logo" src={bankLogo} alt="logo" />
 
-          <div className="off-web">Address : Quezon City, Philippines</div>
+          <div className="off-web">
+            City State: Muntinlupa, Metro Manila <br />
+            Country: Philippines
+          </div>
         </div>
 
         <div className="contacts">
           <h2>Need Assistance?</h2>
           <p className="num">Contact Number: (+63) 9875620473</p>
           <p>Email: primal.bank@gmail.com</p>
-        </div>
-
-        <div className="message">
-          <h2>Message us</h2>
-          <form className="forms" autoComplete="off">
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              required
-            />
-            <input
-              type="text"
-              name="email"
-              id="email"
-              placeholder="Email"
-              required
-            />
-            {/* <input type="text" name="message" id="message"  /> */}
-            <textarea
-              rows="4"
-              cols="10"
-              name="comment"
-              form="usrform"
-              placeholder="Message"
-              required
-            ></textarea>
-            <button>Submit</button>
-          </form>
         </div>
 
         <h4>
