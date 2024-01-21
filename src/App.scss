@@ -14,16 +14,20 @@ html {
 body {
   // background-color: $main-bg-lgt;
   background: rgb(255, 47, 47);
-  background: linear-gradient(70deg, rgba(255, 47, 47, 0.782) 10%, rgb(243, 60, 60) 90%);
+  background: linear-gradient(
+    70deg,
+    rgba(255, 47, 47, 0.782) 10%,
+    rgb(243, 60, 60) 90%
+  );
   font-size: 13px;
   font-weight: 400;
   color: $white-1000;
   overflow-x: hidden;
   font-family: "Roboto", serif;
-  
+
   background-position: center; /* Center the image */
   // background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
+  background-size: cover;
 }
 
 * {
@@ -157,3 +161,20 @@ button:hover a {
   background-color: $black-400;
 }
 
+/* Navbar styling with teal color */
+.navbar {
+  background-color: #009688; /* Teal color */
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #fff; /* White text color for contrast */
+}
+
+.navbar a:hover {
+  color: #ff4081; /* Pinkish color for hover effect */
+}
