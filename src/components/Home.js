@@ -20,7 +20,7 @@ const Home = () => {
     <section className="home_cls">
       <div className="home-cntr">
         <div className="home_txt">
-          <p1 className="greetings">Hello! Welcome To</p1>
+          <p1 className="greetings">WELLCOME TO OUR BANKING WEB APPLICATION</p1>
           <div
             data-aos="fade-right"
             data-aos-delay="0"
@@ -29,9 +29,9 @@ const Home = () => {
             <img src={banklogo} alt="" />
           </div>
           <p>
-            "Empowering Your Financial Journey, Where Trust Meets Technology."
+            EMPOWERING YOUR FINANCIAL JOURNEY, WHERE TRUST MEETS TECHNOLOGY.
           </p>
-          <h3>The official website of Primal Bank</h3>
+          <h3>THE OFFICIAL BANKING WEB APPLICATION OF PRIMAL BANK</h3>
 
           <div className="features">
             <div data-aos="fade-up-right" data-aos-delay="20" className="ft">
