@@ -181,15 +181,15 @@ img:hover {
 }
 
 li {
-  margin-bottom: 10px; /* Add spacing between list items */
+  margin-bottom: 10px;
 }
 
 table tr:nth-child(even) {
-  background-color: $bg-light; /* Add alternating background color for table rows */
+  background-color: $bg-light;
 }
 
 button {
-  border: 2px solid $accent-color; /* Add a border to buttons */
+  border: 2px solid $accent-color;
 }
 
 h1,
@@ -198,5 +198,5 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700; /* Adjust font weight for headings */
+  font-weight: 700;
 }
