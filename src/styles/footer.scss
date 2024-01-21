@@ -12,7 +12,6 @@
   flex-wrap: wrap;
   justify-content: center;
 
-
   padding: 20px;
   row-gap: 20px;
   column-gap: 150px;
@@ -44,9 +43,9 @@
     // width: 200px;
     line-height: 2rem;
     font-size: 16px;
-     .num{
+    .num {
       margin-top: 20px;
-     }
+    }
   }
 
   .message {
@@ -58,8 +57,7 @@
     align-items: center;
     flex-direction: column;
 
-    h2
-    {
+    h2 {
       margin-bottom: 10px;
     }
 
@@ -73,7 +71,8 @@
       align-items: center;
       justify-content: space-evenly;
 
-      textarea,input {
+      textarea,
+      input {
         // width: 14rem;
         border: none;
         border-radius: 10px;
@@ -101,8 +100,7 @@
       }
     }
   }
-  h3
-  {
+  h3 {
     text-align: left;
     justify-content: flex-start;
   }
@@ -111,7 +109,7 @@
 @media (max-width: 500px) {
   .footer_cntr {
     justify-content: center;
-    row-gap:40px;
+    row-gap: 40px;
     column-gap: 150px;
   }
 }
