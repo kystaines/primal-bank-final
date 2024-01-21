@@ -1,9 +1,9 @@
 .footer_cls {
-  background-color: rgb(100, 100, 100);
+  background-color: black;
 
-  // height: 60vh;
-  // padding-top: 20px;
-  // padding-bottom: 30px;
+  /* height: 60vh; */
+  /* padding-top: 20px; */
+  /* padding-bottom: 30px; */
 }
 
 .footer_cntr {
@@ -11,55 +11,47 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-
-
   padding: 20px;
   row-gap: 20px;
   column-gap: 150px;
 
   .handles {
     display: flex;
-    // justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    // background-color: red;
+    /* background-color: red; */
     .main-logo {
-      width: 18rem;
-      // margin-left: 32px;
+      width: 8rem;
+      /* margin-left: 32px; */
     }
     .off-web {
       margin-top: 20px;
-      font-size: 18px;
-      // margin-left: 20px;
+      /* margin-left: 20px; */
     }
   }
 
   .contacts {
-    // background-color: blue;
+    /* background-color: blue; */
     display: flex;
-    // justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    // width: 200px;
+    /* width: 200px; */
     line-height: 2rem;
-    font-size: 16px;
-     .num{
-      margin-top: 20px;
-     }
   }
 
   .message {
-    // background-color: green;
+    /* background-color: green; */
 
     display: flex;
 
-    // margin: 10px;
+    /* margin: 10px; */
     align-items: center;
     flex-direction: column;
 
-    h2
-    {
+    h2 {
       margin-bottom: 10px;
     }
 
@@ -73,8 +65,9 @@
       align-items: center;
       justify-content: space-evenly;
 
-      textarea,input {
-        // width: 14rem;
+      textarea,
+      input {
+        /* width: 14rem; */
         border: none;
         border-radius: 10px;
         font-family: inherit;
@@ -83,7 +76,7 @@
         font-size: 15px;
         color: black;
         resize: none;
-        // margin: 5px;
+        /* margin: 5px; */
       }
 
       input:nth-child(3) {
@@ -93,16 +86,11 @@
       button {
         padding: 10px 20px;
         border-radius: 10px;
-        background-color: #00ae2c;
-        color: #ffffff;
-        &:hover {
-          background-color: #05be33;
-        }
       }
     }
   }
-  h3
-  {
+
+  h3 {
     text-align: left;
     justify-content: flex-start;
   }
@@ -111,7 +99,20 @@
 @media (max-width: 500px) {
   .footer_cntr {
     justify-content: center;
-    row-gap:40px;
+    row-gap: 40px;
     column-gap: 150px;
+
+    .handles {
+    }
+
+    .contacts {
+    }
+
+    .message {
+      .forms {
+        input {
+        }
+      }
+    }
   }
 }
