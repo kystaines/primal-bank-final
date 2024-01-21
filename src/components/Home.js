@@ -31,7 +31,7 @@ const Home = () => {
                         <img src={banklogo} alt="" />
                     </div>
                     <p>
-                        "Empowering Your Financial Journey, Where Trust Meets Technology."
+                        "Let us help you invest in your future. It's our pleasure to work with you."
                     </p>
                     <h3>The official website of Primal Bank</h3>
 
