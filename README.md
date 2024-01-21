@@ -5,10 +5,12 @@ BSIS-3A
 
 Leader
 
-Keziah Sta.Ines
+Ralf Gabriel Ayuban
 
 Member
 
-Ralf Gabriel Ayuban
-Michael Vincent Martin
-Nikko Estillo
+Keziah Ysabel Sta. Ines - Designing
+
+Michael Vincent Martin - Designing
+
+Nikko Estillo - Designing
