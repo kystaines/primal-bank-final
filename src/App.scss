@@ -162,20 +162,41 @@ button:hover a {
 }
 
 .container {
-  padding: 20px; /* Add padding to the container for better spacing */
+  padding: 20px;
 }
 
 p a {
-  color: $accent-color; /* Change link color within paragraphs */
-  text-decoration: underline; /* Add underline on hover */
+  color: $accent-color;
+  text-decoration: underline;
 }
 
 input:focus,
 textarea:focus,
 select:focus {
-  border-color: $accent-color; /* Change border color on focus */
+  border-color: $accent-color;
 }
 
 img:hover {
-  box-shadow: 0 0 10px rgba(247, 3, 3, 0.3); /* Add a subtle box shadow on image hover */
+  box-shadow: 0 0 10px rgba(247, 3, 3, 0.3);
+}
+
+li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+table tr:nth-child(even) {
+  background-color: $bg-light; /* Add alternating background color for table rows */
+}
+
+button {
+  border: 2px solid $accent-color; /* Add a border to buttons */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700; /* Adjust font weight for headings */
 }
