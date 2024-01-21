@@ -1,0 +1,120 @@
+// Define variables for colors and spacing
+$primaryColor: #9f220d;
+$tableBackgroundColor: #c95a5a;
+$cellPadding: 10px;
+
+.customers_sec,
+.transactions_cls {
+  //  background-color: red;
+  padding: 90px 0px;
+
+  .btn_cntr {
+    display: flex;
+    // background-color: red;
+    justify-content: center;
+    margin: 20px;
+
+    .add_btn {
+      background-color: rgb(9, 162, 9);
+      font-size: 16px;
+      padding: 10px 20px;
+      color: white;
+
+      &:hover{
+        background-color: rgb(30, 150, 30);
+      }
+    }
+  }
+
+  .del_btn {
+    padding: 5px 10px;
+    background-color: red;
+
+    &:hover {
+      background-color: #dd3636;
+      color: rgba(255, 255, 255, 0.68);
+    }
+  }
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+// Apply styles to the table component
+.tbl-cntr {
+  overflow-x: auto;
+  margin: 10px;
+}
+table {
+  width: 90%;
+  display: table;
+  margin: 0 auto;
+
+  vertical-align: center;
+  border-collapse: collapse;
+  background-color: $tableBackgroundColor;
+  // margin-bottom: 90px;
+  //   padding: 10px;
+
+  th,
+  td {
+    padding: $cellPadding;
+    text-align: left;
+  }
+
+  th {
+    background-color: $primaryColor;
+    color: #fff;
+  }
+
+  tr:nth-child(even) {
+    background-color: lighten($tableBackgroundColor, 5%);
+  }
+
+  tr:hover {
+    background-color: lighten($tableBackgroundColor, 10%);
+  }
+}
+
+.no-customers-msg
+{
+  display: grid;
+  margin: 50px;
+  // background-color: red;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+// @media (max-width: 500px) {
+//   .add_btn {
+//   }
+//   .del_btn {
+//     padding: 5px 10px;
+//     background-color: red;
+
+//     &:hover {
+//       background-color: #dd3636;
+//       color: rgba(255, 255, 255, 0.68);
+//     }
+//   }
+
+//   table {
+//     width: 90%;
+//     display: table;
+//     margin: 0 auto;
+//     overflow-x: scroll;
+//     vertical-align: center;
+//     border-collapse: collapse;
+//     background-color: red;
+//     // margin-bottom: 90px;
+//     //   padding: 10px;
+
+//     th,
+//     td {
+//       padding: $cellPadding;
+//       text-align: left;
+//     }
+//   }
+// }

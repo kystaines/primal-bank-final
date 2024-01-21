@@ -1,0 +1,70 @@
+@import "./variables";
+
+.new-customer-form {
+  display: flex;
+
+  flex-direction: column;
+  // align-items: center;
+  padding: 20px;
+  border: 1px solid #634e4e;
+  border-radius: 5px;
+  background-color: #ac1515;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f5deb3;
+    align-items: center;
+    text-align: center;
+  }
+
+  p {
+    margin-top: 10px;
+    color: rgb(255, 126, 126);
+    font-size: 16px;
+  }
+
+  label {
+    text-align: left;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #020202;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+    &::placeholder {
+      color: #00000068;
+    }
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3eb65a;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0;
+    margin-bottom: 5px;
+
+    &:hover {
+      background-color: #0ee941;
+    }
+  }
+}
+.acc-gntr {
+  top: 70px;
+  right: 20px;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.797); // Green color
+}
