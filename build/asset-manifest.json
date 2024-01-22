@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4a40afa.css",
+    "main.js": "/static/js/main.1b0d81fa.js",
+    "static/media/hero-image.png": "/static/media/hero-image.0bfa43f00acb5104a99e.png",
+    "static/media/secured_money.png": "/static/media/secured_money.58ade391bf3cc85626e7.png",
+    "static/media/transaction_history.png": "/static/media/transaction_history.9998c86f56227551fc0c.png",
+    "static/media/customer_image.png": "/static/media/customer_image.0b5f3c5bf9170da2ef69.png",
+    "static/media/easy_money.png": "/static/media/easy_money.084b0a4f988be4058e4c.png",
+    "static/media/transfer_money.png": "/static/media/transfer_money.618125d3ff0a37c3a0ae.png",
+    "static/media/fast_money.png": "/static/media/fast_money.afacd928e12e6f0c16a5.png",
+    "static/media/bank_logo.png": "/static/media/bank_logo.24527654643860192db3.png",
+    "static/media/PB_Logo.png": "/static/media/PB_Logo.8190fddc50e3c2a16e0f.png",
+    "index.html": "/index.html",
+    "main.e4a40afa.css.map": "/static/css/main.e4a40afa.css.map",
+    "main.1b0d81fa.js.map": "/static/js/main.1b0d81fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4a40afa.css",
+    "static/js/main.1b0d81fa.js"
+  ]
+}
